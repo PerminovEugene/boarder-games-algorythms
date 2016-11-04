@@ -1,0 +1,25 @@
+{
+  "name": "boarder-games-algorythms",
+  "version": "0.0.1",
+  "description": "Library with different structures and algorytms for boarder games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerminovEugene/boarder-games-algorythms.git"
+  },
+  "keywords": [
+    "games",
+    "node.js",
+    "boarder",
+    "algorythms"
+  ],
+  "author": "Eugene Perminov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerminovEugene/boarder-games-algorythms/issues"
+  },
+  "homepage": "https://github.com/PerminovEugene/boarder-games-algorythms#readme"
+}
