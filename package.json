@@ -22,6 +22,8 @@
     "url": "https://github.com/PerminovEugene/boarder-games-algorythms/issues"
   },
   "homepage": "https://github.com/PerminovEugene/boarder-games-algorythms#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "lodash": "^4.16.6"
   }
 }

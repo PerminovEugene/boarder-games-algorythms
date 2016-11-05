@@ -18,9 +18,9 @@ describe('#cards shuffling', function(){
     });
     
     it('should return false if shuffling returned array whose not contain all source elements', function(){
-        var testData = ["test", 'lop', 12, {"foo": "bar"}, 12.33];
+        var testData = ["test", 'lop', 12, {"foo": "bar"}, 12.33, 123, 123, 123, 123];
         var resultData = shuffling(testData);
-        var result = validators.isArray(resultData) && resultData.length == 1 && resultData[0] == testData[0];
+        var result = validators.isArray(resultData) && validators.checkEqualsElementsInArrays(testData, resultData);
         assert.equal(true, result );
     });
     
